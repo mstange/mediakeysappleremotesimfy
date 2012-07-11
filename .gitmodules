@@ -1,0 +1,6 @@
+[submodule "src/AppleRemoteThreadedCWrapper/apple_remote_control"]
+	path = src/AppleRemoteThreadedCWrapper/apple_remote_control
+	url = git://github.com/seanm/apple_remote_control
+[submodule "src/OSXMediaKeysThreadedCWrapper/SPMediaKeyTap"]
+	path = src/OSXMediaKeysThreadedCWrapper/SPMediaKeyTap
+	url = git://github.com/nevyn/SPMediaKeyTap

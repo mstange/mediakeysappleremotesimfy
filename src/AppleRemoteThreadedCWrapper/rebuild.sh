@@ -1,0 +1,1 @@
+clang++ -dynamiclib -current_version 1.0 -arch i386 -arch x86_64 AppleRemoteThreadedCWrapper.mm apple_remote_control/RemoteControl.m apple_remote_control/AppleRemote.m apple_remote_control/HIDRemoteControlDevice.m apple_remote_control/MultiClickRemoteBehavior.m -framework Cocoa -framework IOKit -O3 -o ../../data/libAppleRemoteThreadedCWrapper.dylib

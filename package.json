@@ -1,0 +1,14 @@
+{
+    "name": "mediakeysappleremotesimfy",
+    "license": "MIT",
+    "author": "Markus Stange <mstange@themasta.com>",
+    "version": "0.1",
+    "fullName": "Media Key and Apple Remote Support for simfy.de",
+    "id": "jid1-bWYqCRBb8O2TGQ",
+    "description": "This addon lets you pause / resume playback on www.simfy.de using the media keys on Apple keyboards and using the Apple Remote.",
+    "unpack": true,
+    "dependencies": [
+        "addon-kit",
+        "api-utils"
+    ]
+}

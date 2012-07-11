@@ -1,0 +1,1 @@
+clang++ -dynamiclib -current_version 1.0 -arch i386 -arch x86_64 OSXMediaKeysThreadedCWrapper.mm SPMediaKeyTap/SPMediaKeyTap.m SPMediaKeyTap/SPInvocationGrabbing/NSObject+SPInvocationGrabbing.m -framework Cocoa -framework Carbon -O3 -o ../../data/libOSXMediaKeysThreadedCWrapper.dylib
