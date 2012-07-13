@@ -88,6 +88,12 @@ insertMessage(void* marshaller, mktcw_message msg)
 
 - (void)dealloc
 {
+  // XXX We need to call [mediaKeys stopWatchingMediaKeys] first, because if
+  // we're still watching, the SPMediaKeyTap object will be kept alive by its
+  // watch thread, so calling release won't dealloc it, and it won't stop
+  // watching.
+  [mediaKeys stopWatchingMediaKeys];
+
   [mediaKeys release];
   [super dealloc];
 }
