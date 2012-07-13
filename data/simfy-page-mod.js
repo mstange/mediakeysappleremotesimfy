@@ -9,3 +9,17 @@ self.port.on("togglePlayback", function () {
   else
     Core.EI.resumePlayback();
 });
+
+self.port.on("playNext", function () {
+  if (!Core.EI)
+    return;
+
+  Core.EI.playNext();
+});
+
+self.port.on("playPrevious", function () {
+  if (!Core.EI)
+    return;
+
+  Core.EI.playPrevious();
+});
