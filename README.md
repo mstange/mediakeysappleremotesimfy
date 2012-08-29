@@ -15,7 +15,8 @@ This extension is built using the Add-on SDK, so if you want to make changes to 
     git clone https://github.com/mozilla/addon-sdk/
     git clone https://github.com/mstange/mediakeysappleremotesimfy/
     cd addon-sdk/
-    source bin/activate
+    git checkout release
+    . bin/activate
     cd ../mediakeysappleremotesimfy/
     cfx run # to test
     cfx xpi # to rebuild mediakeysappleremotesimfy.xpi
