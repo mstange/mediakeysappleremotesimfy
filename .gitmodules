@@ -3,4 +3,4 @@
 	url = git://github.com/seanm/apple_remote_control
 [submodule "src/OSXMediaKeysThreadedCWrapper/SPMediaKeyTap"]
 	path = src/OSXMediaKeysThreadedCWrapper/SPMediaKeyTap
-	url = git://github.com/nevyn/SPMediaKeyTap
+	url = git://github.com/mstange/SPMediaKeyTap
